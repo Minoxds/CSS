@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 40px 100px 100px 100px;
+    background: rgb(52, 33, 70);
+}
+
+div {
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    background: rgb(127, 98, 133);
+    padding: 20px;
+}
+
+.header {
+    background: rgb(131, 105, 136);
+    padding: 100px;
+}
+
+.introArea {
+    background: rgb(137, 111, 143);
+    padding: 85px;
+}
+
+.dock {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    ;
+    column-gap: 2rem;
+    flex-flow: wrap;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+    background: rgb(121, 101, 124);
+}
+
+.footer {
+    background: rgb(106, 90, 110);
+    padding: 30px;
+}
